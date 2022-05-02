@@ -8,7 +8,7 @@ int countPairs1(int *arr, int len, int value) {
     }
     return k;
 }
-int countPairs2(int *arr, int len, int value) {int arr[10] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+int countPairs2(int *arr, int len, int value) {
     int k = 0;
     int g = len - 1;
     for (int n = len - 1; arr[n] > value; n--) {
@@ -22,7 +22,6 @@ int countPairs2(int *arr, int len, int value) {int arr[10] = { 0, 1, 2, 3, 4, 5,
     return k;
 }
 int countPairs3(int *arr, int len, int value) {
-  int arr[10] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     int n = (len / 2) - 1;
     int g = (len / 2) - 1;
     int k = 0;
